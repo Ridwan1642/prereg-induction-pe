@@ -33,7 +33,7 @@ PE scheme but to practice the full loop of mechanistic interpretability work:
 form a mechanistic hypothesis, **register predictions before running**, run a
 controlled sweep, then score myself honestly against what I predicted, including the misses.
 
-The pre-registration ([`predictions.md`](./predictions.md)) was committed and
+The pre-registration ([`predictions.md`](./Predictions.md)) was committed and
 pushed *before* the training run that produced these numbers. I think the misses
 below are more interesting than the hits.
 
