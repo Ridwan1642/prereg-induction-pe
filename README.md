@@ -33,7 +33,7 @@ PE scheme but to practice the full loop of mechanistic interpretability work:
 form a mechanistic hypothesis, **register predictions before running**, run a
 controlled sweep, then score myself honestly against what I predicted, including the misses.
 
-The pre-registration ([`predictions.md`](./Predictions.md)) was committed and
+The pre-registration ([`Preregistration.md`](./Preregistration.md)) was committed and
 pushed *before* the training run that produced these numbers. I think the misses
 below are more interesting than the hits.
 
@@ -253,7 +253,7 @@ are not bitwise reproducible. Results are reported as mean±range over 5 seeds,
 which is the intended unit of reproducibility.
 
 ## Files
-- [`predictions.md`](./Predictions.md) — pre-registration, committed before the run
+- [`Preregistration.md`](./Preregistration.md) — pre-registration, committed before the run
 - [`induction.py`](./induction.py) — training + measurement harness
 - `runs/<timestamp>/results.json` — all numbers, machine-readable
 - `*.png` — the four figures referenced above
